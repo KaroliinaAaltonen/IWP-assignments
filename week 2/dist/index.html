@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Week 2 Assignment Introduction to Web Programming</title>
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <table id="data-table">
+            <th>Username</th>
+            <th>Email</th>
+            <th>Admin</th>
+            <th>Image</th>
+        </table>
+        <br>
+        <br>
+        <form id="input-form" onsubmit="return validateform();">
+            <label for="input-username">Username:</label><br>
+            <input type="text" id="input-username" name="input-username"><br>
+            <label for="input-email">Email:</label><br>
+            <input type="email" id="input-email" name="input-email"><br>
+            <label for="input-image">Image</label><br>
+            <input type="image" src="img/pic.png" id="input-image" width="64" height="64"><br>
+            <label for="input-admin">Admin:</label><br>
+            <input type="checkbox" id="input-admin" name="input-admin" value="x"><br><br>
+            <input type="button" onclick="getdata()" value="Submit">
+            <input type="button" onclick="emptytable()" value="Clear">
+        </form>
+    </body>
+</html>
