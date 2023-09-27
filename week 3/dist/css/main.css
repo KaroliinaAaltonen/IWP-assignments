@@ -1,0 +1,55 @@
+tbody{
+    font-family: verdana, Arial, sans-serif;
+}
+
+td{
+    padding: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+}
+
+th{
+    background-color: #b7d0ff;
+    font-style: bold;
+    padding: 12px 0px 12px 6px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+/*# notation (hashtag) applies to ids (so all elements with id="table")*/
+#table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+
+/*. notation (dot) applies to classes (so all elements with class="center"*/
+.center{
+    margin: auto;
+    padding: 60px;
+    width: 60%
+}
+
+h1{
+    text-align: center;
+}
+
+tr#even{
+    background-color: #f2f2f2;
+}
+
+tr#uneven{
+    background-color: #ffffff;
+}
+
+tr#high-employment{
+    background-color: #abffbd;
+}
+
+tr#low-employment{
+    background-color: #ff9e9e;
+}
